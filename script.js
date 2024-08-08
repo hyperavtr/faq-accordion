@@ -1,6 +1,4 @@
 //variables;
-const showAnswerBtns = document.querySelectorAll(".show-answer-btn");
-const hideAnswerBtns = document.querySelectorAll(".hide-answer-btn");
 const buttons = document.querySelectorAll("button");
 const questions = document.querySelectorAll(".question");
 const answers = document.querySelectorAll(".answer")
