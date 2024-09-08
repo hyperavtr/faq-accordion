@@ -195,7 +195,7 @@ body {
 	}
 
 	.faq-title {
-		margin-bottom: 1rem;
+		margin-bottom: 1.3rem;
 		margin-left: -0.41rem;
 		gap: 1rem;
 	}
@@ -218,5 +218,17 @@ body {
 		margin-top: -0.5rem;
 		margin-left: -1rem;
 		width: 110%;
+	}
+}
+
+@media only screen and (max-height:614px) {
+	main {
+		height: auto;
+		justify-content: unset;
+		margin: 2rem 0;
+	}
+
+	html {
+		height: unset;
 	}
 }
